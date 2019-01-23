@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boats xmlns="https://FerryBoat.epam.com/">
+    <boat>
+        <boatArea>15000</boatArea>
+        <boatStrong>2000</boatStrong>
+    </boat>
+</boats>

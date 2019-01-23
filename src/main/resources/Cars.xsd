@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="https://Cars.epam.com/"
+        xmlns:tns="https://Cars.epam.com/"
+        elementFormDefault="qualified">
+    <element name="cars">
+        <complexType>
+            <sequence>
+                <element name="car" maxOccurs="unbounded" minOccurs="1">
+                    <complexType>
+                        <sequence>
+                            <element name="weight" type="positiveInteger" default="1000"/>
+                            <element name="area" type="positiveInteger" default="100"/>
+                        </sequence>
+                        <attribute name="name" type="string" default="car"/>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

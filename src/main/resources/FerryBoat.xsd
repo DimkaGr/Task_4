@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="https://FerryBoat.epam.com/"
+        xmlns:tns="https://FerryBoat.epam.com/"
+        elementFormDefault="qualified">
+    <element name="boats">
+        <complexType>
+            <sequence>
+                <element name="boat" maxOccurs="1" minOccurs="1">
+                    <complexType>
+                        <sequence>
+                            <element name="boatArea" type="positiveInteger" default="1000"/>
+                            <element name="boatStrong" type="positiveInteger" default="1000"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>
