@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cars xmlns="https://Cars.epam.com/">
-    <car name="truck">
+    <car name="truck1">
         <weight>2000</weight>
         <area>20</area>
     </car>
-    <car name="car">
+    <car name="car1">
         <weight>1000</weight>
         <area>10</area>
     </car>
-    <car name="truck">
+    <car name="truck2">
         <weight>1700</weight>
         <area>25</area>
     </car>

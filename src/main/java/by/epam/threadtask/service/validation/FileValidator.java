@@ -1,5 +1,5 @@
 package by.epam.threadtask.service.validation;
 
 public interface FileValidator {
-    boolean validate(String filePath);
+    boolean validate(String filePath,String sxdName)throws Exception;
 }

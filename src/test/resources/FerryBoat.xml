@@ -2,6 +2,6 @@
 <boats xmlns="https://FerryBoat.epam.com/">
     <boat>
         <boatArea>15000</boatArea>
-        <boatStrong>2000</boatStrong>
+        <boatStrong>4000</boatStrong>
     </boat>
 </boats>
