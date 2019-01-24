@@ -24,6 +24,7 @@ public class CarTransferController {
                 TimeUnit.MILLISECONDS.sleep(500);
                 LOGGER.info("FerryBoat is on the right bank");
             }
+            LOGGER.info("All cars are transported");
         } catch (InterruptedException e) {
             LOGGER.error("FerryBoat work was interrupted " + e);
         }
