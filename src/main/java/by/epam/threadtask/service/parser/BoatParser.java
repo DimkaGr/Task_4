@@ -26,7 +26,7 @@ public class BoatParser {
         factory=XMLInputFactory.newInstance();
     }
 
-    public FerryBoat getCars(){return boat;}
+    public FerryBoat getBoat(){return boat;}
 
     public FerryBoat parse(String filePath){
         FileInputStream fileStream=null;
